@@ -1,0 +1,6 @@
+{
+  "presets": ["next/babel"],
+  "plugins": [["styled-components", { "ssr": true }]]
+}
+
+//all i need to add to make styled components work

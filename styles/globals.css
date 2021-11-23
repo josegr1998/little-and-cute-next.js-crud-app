@@ -14,3 +14,30 @@ a {
 * {
   box-sizing: border-box;
 }
+
+h1 {
+  text-align: center;
+}
+.wrapper {
+  max-width: 1200px;
+  padding: 0 16px;
+  margin: auto;
+}
+.navbar {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #008cba;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.note-container {
+  text-align: center;
+  margin-top: 20px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
